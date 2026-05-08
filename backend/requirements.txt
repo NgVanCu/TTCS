@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+transformers
+torch
+sentencepiece
+pypdf
+python-docx
+numpy

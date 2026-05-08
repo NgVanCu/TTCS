@@ -1,0 +1,17 @@
+# Bỏ qua thư viện Node.js của Frontend
+frontend/node_modules/
+frontend/build/
+
+# Bỏ qua môi trường ảo và thư viện Python của Backend
+.venv/
+__pycache__/
+*.pyc
+
+# CỰC KỲ QUAN TRỌNG: Bỏ qua các file Model AI siêu nặng
+*.bin
+*.safetensors
+*.pt
+backend/my_model/
+
+# Bỏ qua các file cấu hình môi trường bảo mật
+.env
